@@ -25,6 +25,12 @@
 #cta .description {
     font-size: 1.2rem;
     color: var(--color-primary-1);
+    font-weight: 600;
+}
+
+#cta .sub-description{
+    font-size: .8rem;
+    color: var(--color-primary-1);
 }
 
 #cta_buttons {
