@@ -14,10 +14,10 @@
     --color-primary-4: #c6b3ee;
     --color-primary-5: #9370DB;
     --color-primary-6: #ADD8E6;
+    --color-primary-7: #FFA07A;
 
     --color-neutral-0: #fff;
     --color-neutral-1: #1d1d1d;
-    --color-neutral-2: #2a2a2a;
 }
 
 * {
@@ -83,7 +83,7 @@ section {
 }
 
 .section-title {
-    color: var(--color-primary-5);
+    color: var(--color-primary-7);
     font-size: 1.563rem;
 }
 

@@ -22,11 +22,18 @@
     border-radius: 20px;
     gap: 18px;
     width: 25%;
-    padding: 20px;
     background-color: var(--color-neutral-0);
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
+}
+
+.dish a{
+    text-decoration: none;
+}
+
+.dish a:hover{
+    opacity: .8;
 }
 
 .dish-heart {
@@ -46,7 +53,8 @@
 
 .dish-description {
     color: #434343;
-    text-align: center;
+    text-align: justify;
+    padding: 10px;
 }
 
 @media screen and (max-width: 1170px) {
