@@ -45,9 +45,20 @@
     object-fit: cover;
 }
 
-.feedback-content p {
-    display: flex;
-    justify-content: space-between;
+.title-skill{
+    color: var(--color-neutral-1);
+    opacity: .9;
+}
+
+.feedback-content{
+    color: #434343;
+    text-align: justify;
+    padding: 10px;
+}
+
+.feedback-content ul{
+    list-style-image: url('../images/foguete1.svg');
+    list-style-position: inside;
 }
 
 .feedback-content p span {
